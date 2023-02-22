@@ -118,7 +118,7 @@ h1, h2, h3{
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: #1b1b1b;
+  background-color: #DFD3C3;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -144,12 +144,40 @@ h1, h2, h3{
 .orange{
   color: orange
 }
-.color{
-  color: #8B7E74;
-}
+
 .blue{
   color:#6E85B7 ;
 }
 .pink{
   color:#F675A8;
+}
+.white{
+  background: white;
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px 2px white;
+}
+.footerP{
+  color:#1d1d1b;
+}
+.footerDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+.space{
+  padding-bottom: 70px;
+}
+
+.pageOneP{
+  font-family: 'Unbounded',  sans-serif;
+  color:#1b1b1b;
+  font-size: 20px;
+}
+.icone{
+  display: flex;
+  flex-direction: column;
+}
+
+.footerPosition{
+  display: flex;
+  justify-content:space-around;
 }

@@ -30,17 +30,17 @@ function App() {
     <div>  
   <Router> 
  <nav>
- <Link to="/pageOne">  <img src={logo} width="230px" height="70px" alt="logo"/> </Link>
-  <Link className="navLink" to="/pageTwo"> Idées cadeaux pour Femme </Link>
-  <Link className="navLink" to="/pageThree"> Idées cadeaux pour Homme </Link>
-  <Link className="navLink" to="/pageFour"> Idées cadeaux pour Enfant </Link> 
+ <Link to="/ideescadeaux">  <img src={logo} width="230px" height="70px" alt="logo"/> </Link>
+  <Link className="navLink" to="/cadeaux_pour_femme"> Idées cadeaux pour Femme </Link>
+  <Link className="navLink" to="/cadeaux_pour_homme"> Idées cadeaux pour Homme </Link>
+  <Link className="navLink" to="/cadeaux_pour_enfant"> Idées cadeaux pour Enfant </Link> 
 </nav>
 
 <Routes>
-<Route path="/pageOne" element={<PageOne/>}/>
-<Route path="/pageTwo" element={<PageTwo/>}/>
-<Route path="/pageThree" element={<PageThree/>}/>
-<Route path="/pageFour" element={<PageFour/>}/>
+<Route path="/ideescadeaux" element={<PageOne/>}/>
+<Route path="/cadeaux_pour_femme" element={<PageTwo/>}/>
+<Route path="/cadeaux_pour_homme" element={<PageThree/>}/>
+<Route path="/cadeaux_pour_enfant" element={<PageFour/>}/>
 
 </Routes>
 

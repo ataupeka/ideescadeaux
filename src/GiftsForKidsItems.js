@@ -10,8 +10,8 @@ function GiftsForKidsItems({articleForKidsList}){
                     <div className="hover-image-scale">
                     <img src={image} width="350px" height="300px" alt="gift"/> </div>
                     <div className="product-info container"> </div>
-                    <h3> {name} </h3>
-                    <h4> $ {price} </h4>
+                    <h3 className="cont"> {name} </h3>
+                    <h4 className="cont"> $ {price} </h4>
                     
                     
                     </div>
